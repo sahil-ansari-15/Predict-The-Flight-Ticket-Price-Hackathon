@@ -18,3 +18,9 @@ Data_Train.xlsx
 Test_set.xlsx
 
 Raw Data Source : https://www.machinehack.com/hackathons/predict_the_flight_ticket_price_hackathon/data
+
+## Conclusion
+
+We successfully completed data cleaning/wrangling, EDA, feature selection, ML Model selection & finally Flight fare prediction. We compared r2_score of various Models(LinearRegression ,Lasso ,Ridge ,SVR ,RandomForestRegressor ,DecisionTreeRegressor ,XGBRegressor) using Sklearn's 'Cross Validation Score'. RandomForestRegressor with Hyperparameter Tuning was selected as it was giving the best r2_score. Predicted price(output ) was transformed into pandas dataframe & then in excel file format which later uploaded on Hackathon portal (https://www.machinehack.com/hackathons/predict_the_flight_ticket_price_hackathon/overview).
+
+We successfully secured 228 Rank (28/12/2020) in Hackathon with 2600+ participants!!
